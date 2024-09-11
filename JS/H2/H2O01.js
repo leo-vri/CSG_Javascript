@@ -15,9 +15,8 @@ function setup() {
   keverY = 100;
 }
 
-function draw() {
-  background(bomen);  
-  // image(katerKlein,0,0);
+function draw() { 
+  image(kater,25,25,400,400);
   keverX+=random(-5,5);
   keverY+=random(-5,5);
   // image(kever,keverX,keverY);
