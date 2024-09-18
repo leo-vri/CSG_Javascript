@@ -11,7 +11,7 @@ function setup() {
   vierkanten.push(30);
   namen.push("Leona");
   namen.sort();
-  // verwijder het eerste element uit vierkanten
+  vierkanten.shift();
   noLoop();
 }
 
